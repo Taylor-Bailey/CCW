@@ -1,13 +1,13 @@
 import React from 'react'
 import Heading from './Heading'
 import './SelectState.css'
-import USA from '../images/icons/usa.svg'
+import StateList from './StateList'
 
 let SelectState = () => {
     return (
         <div className="">
-            <Heading title="Select A State" />
-            <img className="usaIcon" src={USA} />
+            <Heading title="Select a State" />
+            <StateList />
         </div>
     )
 }
