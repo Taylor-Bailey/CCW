@@ -1,0 +1,299 @@
+[
+    {
+        "name": "Alabama",
+        "abbreviation": "AL",
+        "flag": "./images/flags/alabama.svg"
+    },
+    {
+        "name": "Alaska",
+        "abbreviation": "AK"
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "American Samoa",
+        "abbreviation": "AS"
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Arizona",
+        "abbreviation": "AZ",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Arkansas",
+        "abbreviation": "AR",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "California",
+        "abbreviation": "CA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Colorado",
+        "abbreviation": "CO",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Connecticut",
+        "abbreviation": "CT",
+        "flag": "./images/flags/tennessee.svg"
+        
+    },
+    {
+        "name": "Delaware",
+        "abbreviation": "DE",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "District Of Columbia",
+        "abbreviation": "DC",
+        "flag": "./images/flags/tennessee.svg"
+        
+    },
+    {
+        "name": "Federated States Of Micronesia",
+        "abbreviation": "FM",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Florida",
+        "abbreviation": "FL",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Georgia",
+        "abbreviation": "GA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Guam",
+        "abbreviation": "GU",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Hawaii",
+        "abbreviation": "HI",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Idaho",
+        "abbreviation": "ID",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Illinois",
+        "abbreviation": "IL",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Indiana",
+        "abbreviation": "IN",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Iowa",
+        "abbreviation": "IA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Kansas",
+        "abbreviation": "KS",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Kentucky",
+        "abbreviation": "KY",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Louisiana",
+        "abbreviation": "LA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Maine",
+        "abbreviation": "ME",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Marshall Islands",
+        "abbreviation": "MH",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Maryland",
+        "abbreviation": "MD",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Massachusetts",
+        "abbreviation": "MA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Michigan",
+        "abbreviation": "MI",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Minnesota",
+        "abbreviation": "MN",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Mississippi",
+        "abbreviation": "MS",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Missouri",
+        "abbreviation": "MO",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Montana",
+        "abbreviation": "MT",
+        "flag": "./images/flags/montana.svg"
+    },
+    {
+        "name": "Nebraska",
+        "abbreviation": "NE",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Nevada",
+        "abbreviation": "NV",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "New Hampshire",
+        "abbreviation": "NH",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "New Jersey",
+        "abbreviation": "NJ",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "New Mexico",
+        "abbreviation": "NM",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "New York",
+        "abbreviation": "NY",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "North Carolina",
+        "abbreviation": "NC",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "North Dakota",
+        "abbreviation": "ND",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "abbreviation": "MP",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Ohio",
+        "abbreviation": "OH",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Oklahoma",
+        "abbreviation": "OK",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Oregon",
+        "abbreviation": "OR",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Palau",
+        "abbreviation": "PW",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Pennsylvania",
+        "abbreviation": "PA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Puerto Rico",
+        "abbreviation": "PR",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Rhode Island",
+        "abbreviation": "RI",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "South Carolina",
+        "abbreviation": "SC",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "South Dakota",
+        "abbreviation": "SD",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Tennessee",
+        "abbreviation": "TN",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Texas",
+        "abbreviation": "TX",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Utah",
+        "abbreviation": "UT",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Vermont",
+        "abbreviation": "VT",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Virgin Islands",
+        "abbreviation": "VI",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Virginia",
+        "abbreviation": "VA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Washington",
+        "abbreviation": "WA",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "West Virginia",
+        "abbreviation": "WV",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Wisconsin",
+        "abbreviation": "WI",
+        "flag": "./images/flags/tennessee.svg"
+    },
+    {
+        "name": "Wyoming",
+        "abbreviation": "WY",
+        "flag": "./images/flags/tennessee.svg"
+    }
+]
