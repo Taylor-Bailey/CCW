@@ -9,7 +9,8 @@ class StateList extends Component {
         
         this.state = {
             iconShowing: true,
-            list: states
+            list: states,
+            activeState: ""
         };
         //binds showList function to StateList Componenet
         this.showList = this.showList.bind(this)
@@ -19,13 +20,22 @@ class StateList extends Component {
                 iconShowing: false
             });
         }
+
+        selectState() {
+            this.setState({
+                activeState: "{data.name}"
+            })
+        }
     
         render() {
             let {iconShowing, list} = this.state;
     
             if(!iconShowing) {
                 let stateData = list.map((data, index)=>(
-                    <div className="stateListDiv" key={index}>
+                    <div className="stateListDiv" key={index} id={index} onClick={(id)=>{
+                        id = {index};
+                        console.log("id:", id);
+                    }}>
                         <div className="stateName">
                             <h2>{data.name}</h2>
                             <p>({data.abbreviation})</p>
@@ -34,12 +44,16 @@ class StateList extends Component {
                     </div>
                 ))
                 return(
-                    <div>
+                    <div className="allStates">
                             {stateData}
                     </div>
                 )
             }else if(iconShowing){
-                return <img className="usaIcon" onClick={this.showList} src={USA} alt="USA Map Icon" />
+                return (
+                    <div className="allStates">
+                    <img className="usaIcon" onClick={this.showList} src={USA} alt="USA Map Icon" />
+                    </div>
+                )
             }
         }
     }
