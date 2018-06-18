@@ -9,6 +9,7 @@ let Disclaimer = (props) => {
     return (
         <div className="">
             <Heading title="Disclaimer" />
+            <div className="disclaimerSection">
             <img className="disclaimerLogo" src={Alert}/>
             <h2>Disclaimer</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur ultricies dapibus. Praesent nec nisi at lacus dapibus venenatis. Praesent vestibulum mi quis orci interdum, quis pretium arcu elementum. Integer enim ligula, iaculis eu tincidunt vel, aliquam vitae nibh. Ut sit amet enim mauris. Nunc fringilla augue purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean euismod magna in urna vehicula mattis vel in purus. Morbi a commodo nunc. Aenean feugiat nisl enim. Fusce urna quam, imperdiet sit amet magna vestibulum, fermentum iaculis ex. Praesent elit urna, maximus vitae volutpat eget, finibus quis neque. Aliquam pharetra pharetra massa in gravida. Sed ut cursus risus.
@@ -18,6 +19,7 @@ let Disclaimer = (props) => {
                 <Link to="/select-state">
                     <Button className="agreeButton">Agree</Button>
                 </Link>
+                </div>
         </div>
         
     );

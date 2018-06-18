@@ -1,8 +1,10 @@
 .Header {
-    padding: 1.5rem;
-    height: 1.5rem;
+    padding: 1.5rem 0;
     background-color: rgb(89, 77, 255);
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }

@@ -12,7 +12,7 @@
     {
         "name": "American Samoa",
         "abbreviation": "AS",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/american_samoa.svg"
     },
     {
         "name": "Arizona",
@@ -48,13 +48,13 @@
     {
         "name": "District Of Columbia",
         "abbreviation": "DC",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/dc.svg"
         
     },
     {
         "name": "Federated States Of Micronesia",
         "abbreviation": "FM",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/micronesia.svg"
     },
     {
         "name": "Florida",
@@ -119,7 +119,7 @@
     {
         "name": "Marshall Islands",
         "abbreviation": "MH",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/marshall_islands.svg"
     },
     {
         "name": "Maryland",
@@ -199,7 +199,7 @@
     {
         "name": "Northern Mariana Islands",
         "abbreviation": "MP",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/northern_mariana_islands.svg"
     },
     {
         "name": "Ohio",
@@ -219,7 +219,7 @@
     {
         "name": "Palau",
         "abbreviation": "PW",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/palau.svg"
     },
     {
         "name": "Pennsylvania",
@@ -229,7 +229,7 @@
     {
         "name": "Puerto Rico",
         "abbreviation": "PR",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/puerto_rico.svg"
     },
     {
         "name": "Rhode Island",
@@ -269,7 +269,7 @@
     {
         "name": "Virgin Islands",
         "abbreviation": "VI",
-        "flag": "./flags/tennessee.svg"
+        "flag": "./flags/virgin_islands.svg"
     },
     {
         "name": "Virginia",
