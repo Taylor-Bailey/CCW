@@ -1,3 +1,8 @@
-.ResidentButtons {
+.residentButtons {
     float: left;
+}
+
+.residentButton:focus{
+    background-color: rgb(89, 77, 255) !important;
+    color: white !important;
 }
