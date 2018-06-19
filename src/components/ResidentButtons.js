@@ -11,10 +11,10 @@ class ResidentButtons extends Component {
       const { active } = this.state
 
         return(
-            <Button.Group className="ResidentButtons">
-                <Button>Resident</Button>
+            <Button.Group className="residentButtons">
+                <Button className="residentButton" >Resident</Button>
                 <Button.Or />
-                <Button>Non-Resident</Button>
+                <Button className="residentButton">Non-Resident</Button>
             </Button.Group>
         )
     }
