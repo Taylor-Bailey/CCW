@@ -1,12 +1,12 @@
 import React from 'react';
-import { Header,Button, Icon } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 import './Heading.css';
 
 
 const Heading = (props) =>{
         return (
             <div>
-                <Header  className="Header" size='medium' centered>{props.title}</Header>
+                <Header id="Header" centered>{props.title}</Header>
             </div>
         );
 }

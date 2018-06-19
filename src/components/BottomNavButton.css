@@ -1,0 +1,13 @@
+.buttonColumn{
+    border-right: 1px solid rgb(193, 193, 193);
+}
+
+.bottomButton{
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.bottomButton img{
+    height: 4rem;
+}
