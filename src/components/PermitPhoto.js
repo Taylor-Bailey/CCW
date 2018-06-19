@@ -1,10 +1,11 @@
 import React from 'react'
 import PermitIcon from '../images/icons/permit.svg'
+import './PermitPhoto.css'
 
 const PermitPhoto = () => {
     return(
         <div>   
-            <img src={PermitIcon} alt="Permit Icon" />
+            <img className ="permitIcon" src={PermitIcon} alt="Permit Icon" />
             <h3>Upload Permit Image</h3>
         </div>
     )
