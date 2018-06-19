@@ -4,7 +4,7 @@ import './PermitPhoto.css'
 
 const PermitPhoto = () => {
     return(
-        <div>   
+        <div className="addPhoto">   
             <img className ="permitIcon" src={PermitIcon} alt="Permit Icon" />
             <h3>Upload Permit Image</h3>
         </div>

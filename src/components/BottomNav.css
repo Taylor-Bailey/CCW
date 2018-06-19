@@ -4,3 +4,7 @@
     width: 100%;
     background-color: rgb(247, 247, 247);
 }
+
+.bottomNavRow{
+    padding: 0 !important;
+}

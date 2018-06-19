@@ -1,12 +1,14 @@
 import React from 'react'
-import { Button } from 'semantic-ui-react'
+import { Button, Grid, Segment } from 'semantic-ui-react'
 import './BottomNavButton.css'
 
 const BottomNavButton = (props) =>{
     return (
-        <Button verticalAlign='middle' className="bottomButton">
-            <img  verticalAlign='middle' src={props.src}/>
-        </Button>
+        <Grid.Column className="buttonColumn">
+        <Segment  className="bottomButton">
+            <img src={props.src} />
+        </Segment>
+    </Grid.Column>
     )
 }
 

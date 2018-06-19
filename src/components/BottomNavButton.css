@@ -1,9 +1,11 @@
+.buttonColumn{
+    border-right: 1px solid rgb(193, 193, 193);
+}
+
 .bottomButton{
-    width: 33.33%;
-    background-color: transparent;
-    border: none;
-    border-right: 1px solid rgb(63, 62, 76);
-    padding-top: .5rem;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .bottomButton img{
