@@ -1,0 +1,38 @@
+.ui.modal.transition.visible.active {
+    position: fixed;
+    top: 20rem;
+    width: 90%;
+    margin: auto;
+}
+
+.modalDescription {
+    margin-top: 4rem !important;
+}
+
+.modalDescription p {
+    font-size: 1.25rem;
+}
+
+.blueText{
+    color: rgb(89, 77, 255);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.infoIcon{
+    font-size: 1.25em !important;
+    background-color: blue !important;
+    /* padding: 1.25rem; */
+    border-radius: 3px !important;
+    color: white !important;
+    height: 2rem !important;
+    width: 2rem !important;
+    line-height: 2rem !important;
+    margin: 0 !important;
+    float: right;
+    margin-right: 2rem !important;
+}
+
+.ui.dimmer {
+    background-color: transparent;
+}

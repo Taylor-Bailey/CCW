@@ -11,8 +11,9 @@ class MapSelectorButton extends Component {
     const { active } = this.state
 
     return (
-        <Grid.Column width={3}>
-            <p>Column</p>
+        <Grid.Column className="mapSelectorColumn" width={3}>
+            <Button className="mapSelectorButton" ></Button>
+            <p>{this.props.label}</p>
         </Grid.Column>
     )
   }
