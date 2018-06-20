@@ -20,8 +20,8 @@
 }
 
 .infoIcon{
-    font-size: 1.25em !important;
-    background-color: blue !important;
+    font-size: 1em !important;
+    background-image: linear-gradient(0deg, rgb(89, 77, 255), rgb(82, 125, 253));
     /* padding: 1.25rem; */
     border-radius: 3px !important;
     color: white !important;

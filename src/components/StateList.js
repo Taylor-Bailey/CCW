@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './StateList.css'
-import states from './../reciprocity.json'
+import { GetListOfStates, GetAllStates } from './data.js'
 import USA from '../images/icons/usa.svg'
 
 class StateList extends Component {
@@ -9,9 +9,16 @@ class StateList extends Component {
         
         this.state = {
             iconShowing: true,
-            list: states,
+            list: undefined,
             activeState: ""
         };
+        GetAllStates()
+        .then((data) =>{
+            console.log("all states data: ", data.data);
+            this.setState({
+                list: data.data
+            });
+        })
         //binds showList function to StateList Componenet
         this.showList = this.showList.bind(this)
     }

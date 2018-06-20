@@ -5,7 +5,7 @@ import StateList from './StateList'
 
 let SelectState = () => {
     return (
-        <div className="">
+        <div>
             <Heading title="Select a State" />
             <StateList />
         </div>

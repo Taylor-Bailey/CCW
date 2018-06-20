@@ -4,8 +4,8 @@ import './BottomNavButton.css'
 
 const BottomNavButton = (props) =>{
     return (
-        <Grid.Column className="buttonColumn">
-        <Segment  className="bottomButton">
+        <Grid.Column verticalAlign='middle' className="buttonColumn">
+        <Segment  verticalAlign='middle' className="bottomButton">
             <img src={props.src} />
         </Segment>
     </Grid.Column>
