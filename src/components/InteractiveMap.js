@@ -11,7 +11,7 @@ class InteractiveMap extends Component {
     render() {
       return (
         <div className="usaMap">
-          <USAMap onClick={this.mapHandler} />
+          <USAMap />
         </div>
       );
     }

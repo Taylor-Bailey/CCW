@@ -2,6 +2,13 @@
     float: left;
 }
 
+.residentButton {
+    background-color: transparent !important;
+    color: rgb(65, 51, 255) !important;
+    border: 2px solid rgb(65, 51, 255) !important;
+    border-radius: 5px !important;
+}
+
 .residentButton:focus{
     background-color: rgb(89, 77, 255) !important;
     color: white !important;

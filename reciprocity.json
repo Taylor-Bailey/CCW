@@ -1,0 +1,306 @@
+{
+  "states" : [
+      {
+          "abbreviation" : "AL",
+          "name": "Alabama",
+          "flag": "./flags/alabama.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"]
+      },
+      {
+          "abbreviation" : "AK",
+          "name": "Alaska",
+          "flag": "./flags/alaska.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"]
+      },
+        {
+          "abbreviation" : "AS",
+          "name": "American Samoa",
+          "flag": "./flags/american_samoa.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"]
+      },
+        {
+          "abbreviation" : "AZ",
+          "name": "Arizona",
+          "flag": "./flags/arizona.svg"
+      },
+        {
+          "abbreviation" : "AR",
+          "name": "Arkansas",
+          "flag": "./flags/arkansas.svg"
+      },
+        {
+          "abbreviation" : "CA",
+          "name": "California",
+          "flag": "./flags/california.svg"
+      },
+        {
+          "abbreviation" : "CO",
+          "name": "Colorado",
+          "flag": "./flags/colorado.svg"
+      },
+        {
+          "abbreviation" : "CT",
+          "name": "Connecticut",
+          "flag": "./flags/connecticut.svg"
+          
+      },
+        {
+          "abbreviation" : "DE",
+          "name": "Delaware",
+          "flag": "./flags/delaware.svg"
+      },
+        {
+          "abbreviation" : "DC",
+          "name": "District Of Columbia",
+          "flag": "./flags/dc.svg"
+          
+      },
+        {
+          "abbreviation" : "FM",
+          "name": "Federated States Of Micronesia",
+          "flag": "./flags/micronesia.svg"
+      },
+        {
+          "abbreviation" : "FL",
+          "name": "Florida",
+          "flag": "./flags/florida.svg"
+      },
+        {
+          "abbreviation" : "GA",
+          "name": "Georgia",
+          "flag": "./flags/georgia.svg"
+      },
+        {
+          "abbreviation" : "GU",
+          "name": "Guam",
+          "flag": "./flags/guam.svg"
+      },
+        {
+          "abbreviation" : "HI",
+          "name": "Hawaii",
+          "flag": "./flags/hawaii.svg"
+      },
+        {
+          "abbreviation" : "ID",
+          "name": "Idaho",
+          "flag": "./flags/idaho.svg"
+      },
+        {
+          "abbreviation" : "IL",
+          "name": "Illinois",
+          "flag": "./flags/illinois.svg"
+      },
+        {
+          "abbreviation" : "IN",
+          "name": "Indiana",
+          "flag": "./flags/indiana.svg"
+      },
+        {
+          "abbreviation" : "IA",
+          "name": "Iowa",
+          "flag": "./flags/iowa.svg"
+      },
+        {
+          "abbreviation" : "KS",
+          "name": "Kansas",
+          "flag": "./flags/kansas.svg"
+      },
+        {
+          "abbreviation" : "KY",
+          "name": "Kentucky",
+          "flag": "./flags/kentucky.svg"
+      },
+        {
+          "abbreviation" : "LA",
+          "name": "Louisiana",
+          "flag": "./flags/louisiana.svg"
+      },
+        {
+          "abbreviation" : "ME",
+          "name": "Maine",
+          "flag": "./flags/maine.svg"
+      },
+        {
+          "abbreviation" : "MH",
+          "name": "Marshall Islands",
+          "flag": "./flags/marshall_islands.svg"
+      },
+        {
+          "abbreviation" : "MD",
+          "name": "Maryland",
+          "flag": "./flags/maryland.svg"
+      },
+        {
+          "abbreviation" : "MA",
+          "name": "Massachusetts",
+          "flag": "/./flags/massachusets.svg"
+      },
+        {
+          "abbreviation" : "MI",
+          "name": "Michigan",
+          "flag": "/./flags/michigan.svg"
+      },
+        {
+          "abbreviation" : "MN",
+          "name": "Minnesota",
+          "flag": "/./flags/minnesota.svg"
+      },
+        {
+          "abbreviation" : "MS",
+          "name": "Mississippi",
+          "flag": "./flags/mississippi.svg"
+      },
+        {
+          "abbreviation" : "MO",
+          "name": "Missouri",
+          "flag": "./flags/missouri.svg"
+      },
+        {
+          "abbreviation" : "MT",
+          "name": "Montana",
+          "flag": "./flags/montana.svg"
+      },
+        {
+          "abbreviation" : "NE",
+          "name": "Nebraska",
+          "flag": "./flags/nebraska.svg"
+      },
+        {
+          "abbreviation" : "NV",
+          "name": "Nevada",
+          "flag": "./flags/nevada.svg"
+      },
+        {
+          "abbreviation" : "NH",
+          "name": "New Hampshire",
+          "flag": "./flags/new_hampshire.svg"
+      },
+        {
+          "abbreviation" : "NJ",
+          "name": "New Jersey",
+          "flag": "./flags/new_jersey.svg"
+      },
+        {
+          "abbreviation" : "NM",
+          "name": "New Mexico",
+          "flag": "./flags/new_mexico.svg"
+      },
+        {
+          "abbreviation" : "NY",
+          "name": "New York",
+          "flag": "./flags/new_york.svg"
+      },
+        {
+          "abbreviation" : "NC",
+          "name": "North Carolina",
+          "flag": "./flags/north_carolina.svg"
+      },
+        {
+          "abbreviation" : "ND",
+          "name": "North Dakota",
+          "flag": "./flags/north_dakota.svg"
+      },
+        {
+          "abbreviation" : "MP",
+          "name": "Northern Mariana Islands",
+          "flag": "./flags/northern_mariana_islands.svg"
+      },
+        {
+          "abbreviation" : "OH",
+          "name": "Ohio",
+          "flag": "./flags/ohio.svg"
+      },
+        {
+          "abbreviation" : "OK",
+          "name": "Oklahoma",
+          "flag": "./flags/oklahoma.svg"
+      },
+        {
+          "abbreviation" : "OR",
+          "name": "Oregon",
+          "flag": "./flags/oregon.svg"
+      },
+        {
+          "abbreviation" : "PW",
+          "name": "Palau",
+          "flag": "./flags/palau.svg"
+      },
+        {
+          "abbreviation" : "PA",
+          "name": "Pennsylvania",
+          "flag": "./flags/pennsylvania.svg"
+      },
+        {
+          "abbreviation" : "PR",
+          "name": "Puerto Rico",
+          "flag": "./flags/puerto_rico.svg"
+      },
+        {
+          "abbreviation" : "RI",
+          "name": "Rhode Island",
+          "flag": "./flags/rhode_island.jpg"
+      },
+        {
+          "abbreviation" : "SC",
+          "name": "South Carolina",
+          "flag": "./flags/south_carolina.svg"
+      },
+        {
+          "abbreviation" : "SD",
+          "name": "South Dakota",
+          "flag": "./flags/south_dakota.svg"
+      },
+        {
+          "abbreviation" : "TN",
+          "name": "Tennessee",
+          "flag": "./flags/tennessee.svg",
+          "reciprocity" : ["AL","AK","AZ","AR","CO","DE","ID","IN","IA","KS","KY","LA","ME","MI","MS","MO","MT","NB","NV","OH","OK","PA","SC","SD","UT","VT","VA","WA","WV","WI","WY","TN","FL","TX","GA"],
+          "no_reciprocity" : [ "NY", "CA", "IL","MD","CT","DC","HI","MA","MN","NJ","OR","RI","WA"]
+      },
+        {
+          "abbreviation" : "TX",
+          "name": "Texas",
+          "flag": "./flags/texas.svg"
+      },
+        {
+          "abbreviation" : "UT",
+          "name": "Utah",
+          "flag": "./flags/utah.svg"
+      },
+        {
+          "abbreviation" : "VT",
+          "name": "Vermont",
+          "flag": "./flags/vermont.svg"
+      },
+        {
+          "abbreviation" : "VI",
+          "name": "Virgin Islands",
+          "flag": "./flags/virgin_islands.svg"
+      },
+        {
+          "abbreviation" : "VA",
+          "name": "Virginia",
+          "flag": "./flags/virginia.svg"
+      },
+        {
+          "abbreviation" : "WA",
+          "name": "Washington",
+          "flag": "./flags/washington.svg"
+      },
+        {
+          "abbreviation" : "WV",
+          "name": "West Virginia",
+          "flag": "./flags/west_virginia.svg"
+      },
+        {
+          "abbreviation" : "WI",
+          "name": "Wisconsin",
+          "flag": "./flags/wisconsin.svg"
+      },
+        {
+        "abbreviation" : "WY",
+          "name": "Wyoming",
+          "flag": "./flags/wyoming.svg"
+      }
+  ]
+}

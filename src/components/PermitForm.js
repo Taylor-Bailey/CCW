@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Form, Dropdown } from 'semantic-ui-react'
-import { stateOptions } from './../reciprocity.json'
+// import { stateOptions } from './../reciprocity.json'
 import PermitPhoto from './PermitPhoto.js'
 import ResidentButtons from './ResidentButtons.js'
 import './PermitForm.css'
@@ -15,7 +15,7 @@ const PermitForm = () => {
         <input type="text" placeholder='Last Name' />
       </Form.Field>
       <Form.Field>
-      <Dropdown placeholder='Issuing State' selection options={stateOptions}/>
+      <Dropdown placeholder='Issuing State' selection options="Alabama"/>
       </Form.Field>
       <Form.Field>
         <input type="text" placeholder='License Number' />

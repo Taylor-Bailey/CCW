@@ -7,6 +7,8 @@ import Disclaimer from './components/Disclaimer'
 import SelectState from './components/SelectState'
 import Permit from './components/Permit.js'
 import CarryMap from './components/Map.js'
+// import  { GetListOfStates }  from './components/data.js'
+
 
 class App extends Component {
   render() {
