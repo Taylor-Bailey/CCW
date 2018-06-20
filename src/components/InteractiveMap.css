@@ -1,5 +1,7 @@
 .usaMap {
     width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
 }
 
 .us-state-map {
