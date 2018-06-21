@@ -11,17 +11,28 @@ import CarryMap from './components/Map.js'
 
 
 class App extends Component {
+  constructor(props){
+    super(props)
+
+    this.state = ({
+      activeState: 42
+    })
+  }
+
+    stateIndex = (activeState) => {
+    this.setState({activeState: activeState})
+  }
+
   render() {
     return (
       <Router>
         <div className="App">
           <Route exact path="/disclaimer" component={Disclaimer} />
-          <Route exact path="/select-state" component={SelectState} />
+          <Route exact path="/select-state" render={(props) => <SelectState activeState={this.stateIndex}/>} />
           <Route exact path="/permit-form" component={Permit} />
-          <Route exact path="/map" component={CarryMap} />
+          <Route exact path="/map" render={(props) => <CarryMap activeState={this.state.activeState}/>} />
         </div>
-      </Router>
-    );
+      </Router>    );
   }
 }
 

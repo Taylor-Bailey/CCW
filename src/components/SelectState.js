@@ -25,7 +25,7 @@ class SelectState extends Component {
     }
 
         updateState = (index) =>{
-            this.setState ({activeState: index})
+            this.setState ({activeState: index}, this.props.activeState(index))
             console.log("this is the index: ", index);
         }
 

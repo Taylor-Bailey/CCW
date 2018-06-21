@@ -2,8 +2,7 @@ import React, { Component }from 'react'
 import MapSelect from './MapSelect.js'
 import InfoModal from './InfoModal.js'
 import InteractiveMap from './InteractiveMap.js'
-import StateSelect from './MapStateSelect.js'
-import TNMap from './CopyMap.js'
+import StateSelectButton from './MapStateSelect.js'
 
             
 class MapInteraction extends Component {
@@ -15,19 +14,13 @@ class MapInteraction extends Component {
         };
     }
 
-    selectAbbreviation(taco) {
-        console.log("taco: ", taco);
-        this.setState({stateIndex: taco});
-        console.log(this.state.stateIndex);
-    }
-
     render(){
         return(
             <div id="buttonBoot">
                 <MapSelect />
                 <InfoModal />
-                <TNMap selectedState={this.state.stateIndex}/>
-                <StateSelect />
+                <InteractiveMap selectedState={this.props.activeState}/>
+                <StateSelectButton />
             </div>
         )
     }
