@@ -4,6 +4,7 @@ import InfoModal from './InfoModal.js'
 import InteractiveMap from './InteractiveMap.js'
 import StateSelect from './MapStateSelect.js'
 import TNMap from './CopyMap.js'
+
             
 class MapInteraction extends Component {
     constructor(props) {
@@ -11,9 +12,17 @@ class MapInteraction extends Component {
         
         this.state = {
             type: "reciprocity",
-            stateIndex: 1
+            stateIndex: 42
         };
+        this.selectAbbreviation(50);
     }
+
+    selectAbbreviation(taco) {
+        console.log("taco: ", taco);
+        this.setState({stateIndex: taco});
+        console.log(this.state.stateIndex);
+    }
+
     render(){
         return(
             <div id="buttonBoot">

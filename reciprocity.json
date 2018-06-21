@@ -4,156 +4,185 @@
           "abbreviation" : "AL",
           "name": "Alabama",
           "flag": "./flags/alabama.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"]
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
       {
           "abbreviation" : "AK",
           "name": "Alaska",
           "flag": "./flags/alaska.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"]
-      },
-        {
-          "abbreviation" : "AS",
-          "name": "American Samoa",
-          "flag": "./flags/american_samoa.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"]
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "AZ",
           "name": "Arizona",
-          "flag": "./flags/arizona.svg"
+          "flag": "./flags/arizona.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "AR",
           "name": "Arkansas",
-          "flag": "./flags/arkansas.svg"
+          "flag": "./flags/arkansas.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "CA",
           "name": "California",
-          "flag": "./flags/california.svg"
+          "flag": "./flags/california.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "CO",
           "name": "Colorado",
-          "flag": "./flags/colorado.svg"
+          "flag": "./flags/colorado.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "CT",
           "name": "Connecticut",
-          "flag": "./flags/connecticut.svg"
+          "flag": "./flags/connecticut.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
           
       },
         {
           "abbreviation" : "DE",
           "name": "Delaware",
-          "flag": "./flags/delaware.svg"
+          "flag": "./flags/delaware.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "DC",
           "name": "District Of Columbia",
-          "flag": "./flags/dc.svg"
+          "flag": "./flags/dc.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
           
-      },
-        {
-          "abbreviation" : "FM",
-          "name": "Federated States Of Micronesia",
-          "flag": "./flags/micronesia.svg"
       },
         {
           "abbreviation" : "FL",
           "name": "Florida",
-          "flag": "./flags/florida.svg"
+          "flag": "./flags/florida.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "GA",
           "name": "Georgia",
-          "flag": "./flags/georgia.svg"
-      },
-        {
-          "abbreviation" : "GU",
-          "name": "Guam",
-          "flag": "./flags/guam.svg"
+          "flag": "./flags/georgia.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "HI",
           "name": "Hawaii",
-          "flag": "./flags/hawaii.svg"
+          "flag": "./flags/hawaii.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "ID",
           "name": "Idaho",
-          "flag": "./flags/idaho.svg"
+          "flag": "./flags/idaho.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "IL",
           "name": "Illinois",
-          "flag": "./flags/illinois.svg"
+          "flag": "./flags/illinois.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "IN",
           "name": "Indiana",
-          "flag": "./flags/indiana.svg"
+          "flag": "./flags/indiana.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "IA",
           "name": "Iowa",
-          "flag": "./flags/iowa.svg"
+          "flag": "./flags/iowa.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "KS",
           "name": "Kansas",
-          "flag": "./flags/kansas.svg"
+          "flag": "./flags/kansas.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "KY",
           "name": "Kentucky",
-          "flag": "./flags/kentucky.svg"
+          "flag": "./flags/kentucky.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "LA",
           "name": "Louisiana",
-          "flag": "./flags/louisiana.svg"
+          "flag": "./flags/louisiana.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "ME",
           "name": "Maine",
-          "flag": "./flags/maine.svg"
-      },
-        {
-          "abbreviation" : "MH",
-          "name": "Marshall Islands",
-          "flag": "./flags/marshall_islands.svg"
+          "flag": "./flags/maine.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MD",
           "name": "Maryland",
-          "flag": "./flags/maryland.svg"
+          "flag": "./flags/maryland.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MA",
           "name": "Massachusetts",
-          "flag": "/./flags/massachusets.svg"
+          "flag": "/./flags/massachusets.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MI",
           "name": "Michigan",
-          "flag": "/./flags/michigan.svg"
+          "flag": "/./flags/michigan.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MN",
           "name": "Minnesota",
-          "flag": "/./flags/minnesota.svg"
+          "flag": "/./flags/minnesota.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MS",
           "name": "Mississippi",
-          "flag": "./flags/mississippi.svg"
+          "flag": "./flags/mississippi.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MO",
           "name": "Missouri",
-          "flag": "./flags/missouri.svg"
+          "flag": "./flags/missouri.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "MT",
@@ -165,92 +194,108 @@
         {
           "abbreviation" : "NE",
           "name": "Nebraska",
-          "flag": "./flags/nebraska.svg"
+          "flag": "./flags/nebraska.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NV",
           "name": "Nevada",
-          "flag": "./flags/nevada.svg"
+          "flag": "./flags/nevada.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NH",
           "name": "New Hampshire",
-          "flag": "./flags/new_hampshire.svg"
+          "flag": "./flags/new_hampshire.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NJ",
           "name": "New Jersey",
-          "flag": "./flags/new_jersey.svg"
+          "flag": "./flags/new_jersey.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NM",
           "name": "New Mexico",
-          "flag": "./flags/new_mexico.svg"
+          "flag": "./flags/new_mexico.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NY",
           "name": "New York",
-          "flag": "./flags/new_york.svg"
+          "flag": "./flags/new_york.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NC",
           "name": "North Carolina",
-          "flag": "./flags/north_carolina.svg"
+          "flag": "./flags/north_carolina.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "ND",
           "name": "North Dakota",
-          "flag": "./flags/north_dakota.svg"
-      },
-        {
-          "abbreviation" : "MP",
-          "name": "Northern Mariana Islands",
-          "flag": "./flags/northern_mariana_islands.svg"
+          "flag": "./flags/north_dakota.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "OH",
           "name": "Ohio",
-          "flag": "./flags/ohio.svg"
+          "flag": "./flags/ohio.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          
       },
         {
           "abbreviation" : "OK",
           "name": "Oklahoma",
-          "flag": "./flags/oklahoma.svg"
+          "flag": "./flags/oklahoma.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "OR",
           "name": "Oregon",
-          "flag": "./flags/oregon.svg"
-      },
-        {
-          "abbreviation" : "PW",
-          "name": "Palau",
-          "flag": "./flags/palau.svg"
+          "flag": "./flags/oregon.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "PA",
           "name": "Pennsylvania",
-          "flag": "./flags/pennsylvania.svg"
-      },
-        {
-          "abbreviation" : "PR",
-          "name": "Puerto Rico",
-          "flag": "./flags/puerto_rico.svg"
+          "flag": "./flags/pennsylvania.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "RI",
           "name": "Rhode Island",
-          "flag": "./flags/rhode_island.jpg"
+          "flag": "./flags/rhode_island.jpg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "SC",
           "name": "South Carolina",
-          "flag": "./flags/south_carolina.svg"
+          "flag": "./flags/south_carolina.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "SD",
           "name": "South Dakota",
-          "flag": "./flags/south_dakota.svg"
+          "flag": "./flags/south_dakota.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "TN",
@@ -262,47 +307,58 @@
         {
           "abbreviation" : "TX",
           "name": "Texas",
-          "flag": "./flags/texas.svg"
+          "flag": "./flags/texas.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "UT",
           "name": "Utah",
-          "flag": "./flags/utah.svg"
+          "flag": "./flags/utah.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "VT",
           "name": "Vermont",
-          "flag": "./flags/vermont.svg"
-      },
-        {
-          "abbreviation" : "VI",
-          "name": "Virgin Islands",
-          "flag": "./flags/virgin_islands.svg"
+          "flag": "./flags/vermont.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "VA",
           "name": "Virginia",
-          "flag": "./flags/virginia.svg"
+          "flag": "./flags/virginia.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "WA",
           "name": "Washington",
-          "flag": "./flags/washington.svg"
+          "flag": "./flags/washington.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "WV",
           "name": "West Virginia",
-          "flag": "./flags/west_virginia.svg"
+          "flag": "./flags/west_virginia.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "WI",
           "name": "Wisconsin",
-          "flag": "./flags/wisconsin.svg"
+          "flag": "./flags/wisconsin.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
         "abbreviation" : "WY",
           "name": "Wyoming",
-          "flag": "./flags/wyoming.svg"
+          "flag": "./flags/wyoming.svg",
+          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       }
   ]
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './StateList.css'
-import { GetStateList } from './data.js'
+import { GetAllStates } from './data.js'
 import USA from '../images/icons/usa.svg'
 
 class StateList extends Component {
@@ -12,11 +12,11 @@ class StateList extends Component {
             list: undefined,
             activeState: ""
         };
-        GetStateList()
+        GetAllStates()
         .then((data) =>{
 
             this.setState({
-                list: data.data
+                list: data
             });
         })
         //binds showList function to StateList Componenet

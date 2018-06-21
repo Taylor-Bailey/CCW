@@ -11,16 +11,4 @@ let GetAllStates = () => {
     })
 }
 
-let GetStateList = () => {
-    return axios.get(JSONpath)
-    .then((data) => {
-        return data
-    }).catch((error) => {
-        console.log("something went wrong", error);
-    })
-}
-
-
-
-
-export { GetAllStates, GetStateList }
+export { GetAllStates }

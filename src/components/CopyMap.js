@@ -33,7 +33,7 @@ class TNMap extends Component {
                     testObj[arrays[1][i]] = {fill: "#fa2855"};
                     testObj[arrays[2]] = {fill: "#41e294"};
                 }
-                console.log("test Object: ",testObj);
+                console.log("test Object: ", testObj);
                 this.setState({config: testObj})
             })
     }
