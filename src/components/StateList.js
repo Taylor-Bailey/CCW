@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './StateList.css'
 import { GetAllStates } from './data.js'
 import USA from '../images/icons/usa.svg'
+import { Link } from 'react-router-dom'
 
 class StateList extends Component {
     constructor(props) {
@@ -39,16 +40,18 @@ class StateList extends Component {
     
             if(!iconShowing) {
                 let stateData = list.map((data, index)=>(
-                    <div className="stateListDiv" key={index} id={index} onClick={(id)=>{
-                        id = {index};
-                        console.log("id:", id);
-                    }}>
+                    <Link to='/map'>
+                        <div className="stateListDiv" key={index} id={index} onClick={(id)=>{
+                            id = {index};
+                            console.log("id:", id);
+                        }}>
                         <div className="stateName">
-                            <h2>{data.name}</h2>
-                            <p>({data.abbreviation})</p>
+                        <h2>{data.name}</h2>
+                                <p>({data.abbreviation})</p>
+                                </div>
+                            <img className="flagImage" src={data.flag} alt={data.name} />
                         </div>
-                        <img className="flagImage" src={data.flag} alt={data.name} />
-                    </div>
+                    </Link>
                 ))
                 return(
                     <div className="allStates">
