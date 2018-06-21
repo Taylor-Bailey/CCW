@@ -1,72 +1,39 @@
 import React, { Component } from 'react'
 import './StateList.css'
-import { GetAllStates } from './data.js'
 import USA from '../images/icons/usa.svg'
 import { Link } from 'react-router-dom'
 
-class StateList extends Component {
-    constructor(props) {
-        super(props);
-        
-        this.state = {
-            iconShowing: true,
-            list: undefined,
-            activeState: ""
-        };
-        GetAllStates()
-        .then((data) =>{
-
-            this.setState({
-                list: data
-            });
-        })
-        //binds showList function to StateList Componenet
-        this.showList = this.showList.bind(this)
-    }
-        showList() {
-            this.setState({
-                iconShowing: false
-            });
-        }
-
-        selectState() {
-            this.setState({
-                activeState: "{data.name}"
-            })
-        }
-    
-        render() {
-            let {iconShowing, list} = this.state;
-    
-            if(!iconShowing) {
-                let stateData = list.map((data, index)=>(
-                    <Link to='/map'>
-                        <div className="stateListDiv" key={index} id={index} onClick={(id)=>{
-                            id = {index};
-                            console.log("id:", id);
-                        }}>
-                        <div className="stateName">
-                        <h2>{data.name}</h2>
-                                <p>({data.abbreviation})</p>
-                                </div>
-                            <img className="flagImage" src={data.flag} alt={data.name} />
-                        </div>
-                    </Link>
-                ))
-                return(
-                    <div className="allStates">
-                            {stateData}
-                    </div>
-                )
-            }else if(iconShowing){
+let StateList  = (props) => {
+            console.log("props list: ", props);
+            console.log("where's the damn data?: ", props.list);
+            let stateData = props.list.map((data, index)=>(
+                <MappingStateData key={index} index={index} abbreviation={data.abbreviation} name={data.name} flag={data.flag} updateState={props.updateState}/>
+            ))
                 return (
-                    <div className="allStates">
-                    <img className="usaIcon" onClick={this.showList} src={USA} alt="USA Map Icon" />
-                    </div>
+                <div className="allStates">
+                <img className="usaIcon" src={USA} alt="USA Map Icon" />
+                        {stateData}
+                </div>
                 )
-            }
-        }
     }
+
+    function MappingStateData(props) {
+        const index = props.index
+        return (
+            <Link to='/map'>
+                <div className="stateListDiv" key={props.index} id={props.index} onClick={(event) => props.updateState(index)}>
+                    <div className="stateName">
+                        <h2>{props.name}</h2>
+                        <p>({props.abbreviation})</p>
+                    </div>
+                    <img className="flagImage" src={props.flag} alt={props.name} />
+                </div>
+            </Link>
+        )
+    }
+    
+
+                        
 
     export default StateList
     

@@ -9,12 +9,14 @@ import TNMap from './CopyMap.js'
 class MapInteraction extends Component {
     constructor(props) {
         super(props);
-        
         this.state = {
             type: "reciprocity",
             stateIndex: 42
         };
-        this.selectAbbreviation(50);
+    }
+
+    whatever = () => {
+        this.selectAbbreviation(50)  
     }
 
     selectAbbreviation(taco) {
@@ -29,6 +31,7 @@ class MapInteraction extends Component {
                 <MapSelect />
                 <InfoModal />
                 <TNMap selectedState={this.state.stateIndex}/>
+                <button onClick={this.whatever}>TEST BUTTON</button>
                 <StateSelect />
             </div>
         )

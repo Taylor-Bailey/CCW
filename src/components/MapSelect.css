@@ -9,3 +9,8 @@
 #buttonBoot {
     padding-top: .1rem;
 }
+
+#enabled{
+    background-image: linear-gradient(0deg, rgb(89, 77, 255), rgb(82, 125, 253)) !important;
+    background-color: none !important;
+}
