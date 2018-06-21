@@ -158,7 +158,9 @@
         {
           "abbreviation" : "MT",
           "name": "Montana",
-          "flag": "./flags/montana.svg"
+          "flag": "./flags/montana.svg",
+          "reciprocity": ["AL","AK","AZ","AR","CO","FL","GA","ID","IN","IA","KS","KY","LA","MI","MS","MO","NC","NE","NV","ND","OH","OK","PA","SD","TN","TX","UT","VT","VA","WI","WY"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
           "abbreviation" : "NE",
@@ -254,8 +256,8 @@
           "abbreviation" : "TN",
           "name": "Tennessee",
           "flag": "./flags/tennessee.svg",
-          "reciprocity" : ["AL","AK","AZ","AR","CO","DE","ID","IN","IA","KS","KY","LA","ME","MI","MS","MO","MT","NB","NV","OH","OK","PA","SC","SD","UT","VT","VA","WA","WV","WI","WY","TN","FL","TX","GA"],
-          "no_reciprocity" : [ "NY", "CA", "IL","MD","CT","DC","HI","MA","MN","NJ","OR","RI","WA"]
+          "reciprocity" : ["AL","AK","AZ","AR","CO","DE","ID","IN","IA","KS","KY","LA","ME","MI","MS","MO","MT","NM","NE","NC","NH","NV","ND","OH","OK","PA","SC","SD","UT","VT","VA","WA","WV","WI","WY","FL","TX","GA"],
+          "no_reciprocity" : [ "NY", "CA", "IL","MD","CT","DC2","HI","MA","MN","NJ","OR","RI","WA"]
       },
         {
           "abbreviation" : "TX",

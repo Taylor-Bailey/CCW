@@ -11,15 +11,15 @@ class MapInteraction extends Component {
         
         this.state = {
             type: "reciprocity",
-            state: "Tennessee"
+            stateIndex: 1
         };
     }
     render(){
         return(
-            <div>
+            <div id="buttonBoot">
                 <MapSelect />
                 <InfoModal />
-                <TNMap />
+                <TNMap selectedState={this.state.stateIndex}/>
                 <StateSelect />
             </div>
         )

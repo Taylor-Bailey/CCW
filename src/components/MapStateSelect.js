@@ -4,7 +4,10 @@ import { Button } from 'semantic-ui-react'
 import './MapStateSelect.css'
 
 const MapStateForm = () => {
-  return <Button id="stateSelectButton" type='submit'>Select A Different State</Button>
+  return (
+    <Button id="stateSelectButton" type='submit'>Select A Different State</Button>
+  )
+    
 }
 
 export default MapStateForm

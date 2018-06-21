@@ -5,3 +5,7 @@
 .mapSelectorRow{
     display: block !important;
 }
+
+#buttonBoot {
+    padding-top: .1rem;
+}

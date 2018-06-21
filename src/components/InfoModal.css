@@ -28,9 +28,9 @@
     height: 2rem !important;
     width: 2rem !important;
     line-height: 2rem !important;
-    margin: 0 !important;
+    margin: 0 2rem 1rem 0 !important;
     float: right;
-    margin-right: 2rem !important;
+ 
 }
 
 .ui.dimmer {

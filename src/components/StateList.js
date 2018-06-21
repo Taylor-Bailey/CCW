@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './StateList.css'
-import { GetListOfStates, GetAllStates } from './data.js'
+import { GetStateList } from './data.js'
 import USA from '../images/icons/usa.svg'
 
 class StateList extends Component {
@@ -12,9 +12,9 @@ class StateList extends Component {
             list: undefined,
             activeState: ""
         };
-        GetAllStates()
+        GetStateList()
         .then((data) =>{
-            console.log("all states data: ", data.data);
+
             this.setState({
                 list: data.data
             });
