@@ -11,7 +11,7 @@ class MapInteraction extends Component {
         
         this.state = {
             type: "reciprocity",
-            stateIndex: 49
+            stateIndex: 1
         };
     }
     render(){
