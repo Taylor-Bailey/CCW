@@ -15,10 +15,6 @@ class MapInteraction extends Component {
         };
     }
 
-    whatever = () => {
-        this.selectAbbreviation(50)  
-    }
-
     selectAbbreviation(taco) {
         console.log("taco: ", taco);
         this.setState({stateIndex: taco});
@@ -31,7 +27,6 @@ class MapInteraction extends Component {
                 <MapSelect />
                 <InfoModal />
                 <TNMap selectedState={this.state.stateIndex}/>
-                <button onClick={this.whatever}>TEST BUTTON</button>
                 <StateSelect />
             </div>
         )

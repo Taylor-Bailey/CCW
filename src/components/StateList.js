@@ -4,15 +4,17 @@ import USA from '../images/icons/usa.svg'
 import { Link } from 'react-router-dom'
 
 let StateList  = (props) => {
-            console.log("props list: ", props);
-            console.log("where's the damn data?: ", props.list);
             let stateData = props.list.map((data, index)=>(
                 <MappingStateData key={index} index={index} abbreviation={data.abbreviation} name={data.name} flag={data.flag} updateState={props.updateState}/>
             ))
                 return (
                 <div className="allStates">
-                <img className="usaIcon" src={USA} alt="USA Map Icon" />
+                    <div className="imageDiv">
+                        <img className="usaIcon" src={USA} alt="USA Map Icon" />
+                    </div>
+                    <div className="stateData">
                         {stateData}
+                    </div>
                 </div>
                 )
     }

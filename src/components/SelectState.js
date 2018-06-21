@@ -26,10 +26,8 @@ class SelectState extends Component {
 
         updateState = (index) =>{
             this.setState ({activeState: index})
+            console.log("this is the index: ", index);
         }
-        // componentDidMount(){
-
-        // }
 
         render(){
             if(this.state.dataLoaded){
