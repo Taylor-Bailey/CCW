@@ -3,6 +3,7 @@ import Heading from './Heading'
 import './SelectState.css'
 import StateList from './StateList'
 import { GetAllStates } from './data.js'
+import { Dimmer, Loader } from 'semantic-ui-react'
 
 class SelectState extends Component {
     constructor(props) {
@@ -39,7 +40,9 @@ class SelectState extends Component {
                 )
             }else{
                 return(
-                    <p>loading</p>
+                        <Dimmer active inverted>
+                            <Loader inverted content='Loading' />
+                        </Dimmer>
                 )
             }
         };

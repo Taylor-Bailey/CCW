@@ -23,7 +23,7 @@ class InteractiveMap extends Component {
                   let noReciprocity = resp[selectedState].no_reciprocity;
                   let currentState = resp[selectedState].abbreviation;
 
-                  return [reciprocity, noReciprocity, currentState];
+                  return [reciprocity, noReciprocity];
               }).then((arrays) =>{
                   let longerArray = arrays[0].length > arrays[1].length ? arrays[0] : arrays[1]
                   let testObj = {};

@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css'
+
 import './App.css'
+
 import Heading from './components/Heading'
 import Disclaimer from './components/Disclaimer'
 import SelectState from './components/SelectState'
 import Permit from './components/Permit.js'
 import CarryMap from './components/Map.js'
-// import  { GetListOfStates }  from './components/data.js'
 
 
 class App extends Component {
@@ -28,8 +29,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <Route exact path="/disclaimer" component={Disclaimer} />
-          <Route exact path="/select-state" render={(props) => <SelectState activeState={this.stateIndex}/>} />
-          <Route exact path="/permit-form" component={Permit} />
+          <Route exact path="/states" render={(props) => <SelectState activeState={this.stateIndex}/>} />
+          <Route exact path="/permit" component={Permit} />
           <Route exact path="/map" render={(props) => <CarryMap activeState={this.state.activeState}/>} />
         </div>
       </Router>    );
