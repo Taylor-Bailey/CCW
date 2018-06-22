@@ -16,7 +16,7 @@ let Disclaimer = (props) => {
 
                 Mauris commodo erat eu diam lobortis eleifend non id dolor. Nam dictum iaculis magna vitae ullamcorper. Praesent sit amet consequat justo. Aenean a tellus consequat, congue urna sit amet, porttitor nunc. Sed a rhoncus ex, sed aliquam neque. Praesent tempor nulla nulla, et convallis urna scelerisque sed. Aliquam ut semper risus, at dictum nunc. Aliquam sit amet ultrices metus, eget volutpat massa. Nulla ipsum diam, ullamcorper et lectus ac, suscipit hendrerit nisl. Fusce vel quam et risus pellentesque egestas. Aenean ut eleifend turpis. Curabitur ultricies lorem sodales, fringilla erat vel, finibus mauris.
                 </p>
-                <Link to="/select-state">
+                <Link to="/states">
                     <Button id="agreeButton">Agree</Button>
                 </Link>
             </div>

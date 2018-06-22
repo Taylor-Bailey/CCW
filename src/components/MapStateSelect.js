@@ -5,7 +5,7 @@ import './MapStateSelect.css'
 
 const MapStateForm = () => {
   return (
-    <Link to='/select-state'>
+    <Link to='/states'>
       <Button id="stateSelectButton" type='submit'>Select A Different State</Button>
     </Link>
   )
