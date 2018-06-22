@@ -4,7 +4,6 @@ import 'semantic-ui-css/semantic.min.css'
 
 import './App.css'
 
-import Heading from './components/Heading'
 import Disclaimer from './components/Disclaimer'
 import SelectState from './components/SelectState'
 import Permit from './components/Permit.js'

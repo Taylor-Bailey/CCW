@@ -6,7 +6,7 @@ import './Heading.css';
 const Heading = (props) =>{
         return (
             <div>
-                <Header id="Header" centered>{props.title}</Header>
+                <Header id="Header" >{props.title}</Header>
             </div>
         );
 }

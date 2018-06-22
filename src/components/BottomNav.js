@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Grid, Segment } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 import BottomNavButton from './BottomNavButton'
 
 import "./BottomNav.css"
@@ -12,7 +12,7 @@ import LawButton from './../images/icons/law.svg'
 let BottomNav = (props) => {
     return (
         <Grid className="bottomNav" columns='equal' divided inverted padded>
-            <Grid.Row className="bottomNavRow" color='gray' textAlign='center'>
+            <Grid.Row className="bottomNavRow" >
             <Link className="linkDiv" to='/permit'>
                 <BottomNavButton id={props.id} src={PermitButton}/>
             </Link>

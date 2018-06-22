@@ -21,7 +21,6 @@ class InteractiveMap extends Component {
               .then((resp) => {
                   let reciprocity = resp[selectedState].reciprocity;
                   let noReciprocity = resp[selectedState].no_reciprocity;
-                  let currentState = resp[selectedState].abbreviation;
 
                   return [reciprocity, noReciprocity];
               }).then((arrays) =>{

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Button, Form } from 'semantic-ui-react'
-import PermitPhoto from './PermitPhoto.js'
 import './ResidentButtons.css'
 import './PermitForm.css'
 

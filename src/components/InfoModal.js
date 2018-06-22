@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Header, Modal, Icon, Dimmer } from 'semantic-ui-react'
+import { Header, Modal, Icon } from 'semantic-ui-react'
 import './InfoModal.css'
 
 const InfoModal = () => (
