@@ -8,7 +8,6 @@ class MapSelectorButton extends Component {
   handleClick = () => this.setState({ active: !this.state.active })
 
   render() {
-    const { active } = this.state
 
     return (
         <Grid.Column className="mapSelectorColumn" width={3}>

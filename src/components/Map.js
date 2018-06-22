@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Heading from './Heading.js'
 import BottomNav from './BottomNav.js'
 import MapInteraction from './MapInteraction.js'
+import './Map.css'
 
 class CarryMap extends Component {
   
@@ -11,7 +12,7 @@ class CarryMap extends Component {
             <div>
                 <Heading title="Map" />
                 <MapInteraction activeState={this.props.activeState} />
-                <BottomNav />
+                <BottomNav id="activeMapButton" />
             </div>
         )
     }

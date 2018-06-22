@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './StateList.css'
 import USA from '../images/icons/usa.svg'
 import { Link } from 'react-router-dom'
