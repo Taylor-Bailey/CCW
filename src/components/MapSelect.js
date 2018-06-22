@@ -6,7 +6,7 @@ import './MapSelect.css'
 const MapSelect = () => (
     <Grid className="mapSelectorGrid" columns={5}>
       <Grid.Row className="mapSelectorRow" >
-          <MapSelectorButton label="Reciprocity" />
+          <MapSelectorButton id="enabled" label="Reciprocity" />
           <MapSelectorButton label="II Carry" />
           <MapSelectorButton label="Shall Issue" />
           <MapSelectorButton label="May Issue" />
