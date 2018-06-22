@@ -4,8 +4,8 @@
           "abbreviation" : "AL",
           "name": "Alabama",
           "flag": "./flags/alabama.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["KY","WV","NH","TN","FL","TX","GA","ID","WY","UT","AZ","ND","SD","KS","OK","OH","IA","MO","AR","LA","IN","MS","NC","VA","AK","IN","VT","WI","MI","MT","CO"],
+          "no_reciprocity": ["CT","DC2","CA","OR","WA","NM","HI","SC","IL","MN","NY","ME","NJ","MD","MA","RI","NE","PA","DE","NV"]
       },
       {
           "abbreviation" : "AK",
