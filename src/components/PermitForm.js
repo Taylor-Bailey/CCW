@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import { Button, Form, Dropdown } from 'semantic-ui-react'
+import { Button, Form } from 'semantic-ui-react'
 import PermitPhoto from './PermitPhoto.js'
 import './ResidentButtons.css'
 import './PermitForm.css'
 
-let stateOptions = [ { key: 'AL', value: 'Alabama', text: 'Alabama' },{ key: 'TN', value: 'Tennessee', text: 'Tennessee' },{ key: 'MT', value: 'Montana', text: 'Montana' } ]
+// let stateOptions = [ { key: 'AL', value: 'Alabama', text: 'Alabama' },{ key: 'TN', value: 'Tennessee', text: 'Tennessee' },{ key: 'MT', value: 'Montana', text: 'Montana' },{ key: 'KY', value: 'Kentucky', text: 'Kentucky'}  ]
 
 
 class PermitForm extends Component {
@@ -21,7 +21,31 @@ class PermitForm extends Component {
           resd: true
       }
     };
+    
+    let storedPermit = localStorage.getItem('your-permit');
+    let foundPermit = this.checkForPermit(storedPermit);
+    console.log("permitttt: ", this.setState);
+    this.setState({permit: foundPermit} , () => console.log("finding this shit: ", this.state))
+    
   }
+ 
+  checkForPermit = (localStorageObject) => {
+    if(localStorageObject){
+      let permit = JSON.parse(localStorageObject);
+      console.log("stored permit: ", permit);
+        return permit
+    }else{
+      return ({
+        firstName: "",
+        lastName: "",
+        issueState: "",
+        licenseNumber: "",
+        expDate: "",
+        resd: true
+    })
+    }
+  }
+
       onFormSubmit = (event) => {
         let permitObject = {}
         permitObject.firstName = this.state.permit.firstName;
@@ -38,6 +62,7 @@ class PermitForm extends Component {
     const permit = Object.assign({}, this.state.permit);
     permit[event.target.name] = event.target.value;
     this.setState({permit});
+    console.log("permit: ", this);
   }
 
   render(){
@@ -51,10 +76,10 @@ class PermitForm extends Component {
         <input type="text" placeholder='Last Name' name='lastName' value={this.state.permit.lastName} onChange={this.handleChange} />
         </Form.Field>
         <Form.Field>
-        <Dropdown placeholder='Issuing State' name='issueState' selection options={stateOptions} value={this.state.permit.issueState} onChange={this.handleChange} />
-        </Form.Field>
-        <Form.Field>
           <input type="text" placeholder='License Number' name='licenseNumber' value={this.state.permit.licenseNumber} onChange={this.handleChange} />
+          </Form.Field>
+          <Form.Field>
+          <input type="text" placeholder='Issuing State' name='issueState' value={this.state.permit.issueState} onChange={this.handleChange} />
           </Form.Field>
           <Form.Field>
           <input type="date" placeholder='Expiration Date' name='expDate' value={this.state.permit.expDate} onChange={this.handleChange} />
