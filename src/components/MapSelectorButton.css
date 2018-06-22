@@ -9,10 +9,11 @@
 }
 
 .mapSelectorColumn p {
-    font-size: .8rem !important;
-    font-weight: bold;
+    font-size: .9rem !important;
+    font-weight: 700;
     letter-spacing: .05rem;
     margin-top: .5rem;
+    color: black;
 }
 
 .mapSelectorColumn {

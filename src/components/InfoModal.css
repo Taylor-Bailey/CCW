@@ -13,6 +13,10 @@
     font-size: 1.25rem;
 }
 
+.modalDescription h2 {
+    padding-bottom: .8rem;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
 .blueText{
     color: rgb(89, 77, 255);
     font-weight: bold;

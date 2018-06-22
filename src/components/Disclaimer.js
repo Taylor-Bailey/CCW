@@ -12,9 +12,11 @@ let Disclaimer = (props) => {
             <div className="disclaimerSection">
                 <img className="disclaimerLogo" src={Alert}/>
                 <h2>Disclaimer</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur ultricies dapibus. Praesent nec nisi at lacus dapibus venenatis. Praesent vestibulum mi quis orci interdum, quis pretium arcu elementum. Integer enim ligula, iaculis eu tincidunt vel, aliquam vitae nibh. Ut sit amet enim mauris. Nunc fringilla augue purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean euismod magna in urna vehicula mattis vel in purus. Morbi a commodo nunc. Aenean feugiat nisl enim. Fusce urna quam, imperdiet sit amet magna vestibulum, fermentum iaculis ex. Praesent elit urna, maximus vitae volutpat eget, finibus quis neque. Aliquam pharetra pharetra massa in gravida. Sed ut cursus risus.
+                <p>Conseal&trade; attemps to provide information on the most recent laws regarding reciprocity between states. Conseal&trade; and it's authors imply no warranty regarding the accuracy or applicability of the information contained within.  Conseal&trade makes no representation regarding the ability to legally carry in any locale and does not constitute legal avice.  By clicking "Agree" below, you acknowledge that you are solely responsible for following all laws and court rulings, you voluntarily accept all disclaimers, and you agree to hold the Conseal&trade; authors harmless and without liabilty from any losses, expenses, claims, and damages of an nature.</p>
 
-                Mauris commodo erat eu diam lobortis eleifend non id dolor. Nam dictum iaculis magna vitae ullamcorper. Praesent sit amet consequat justo. Aenean a tellus consequat, congue urna sit amet, porttitor nunc. Sed a rhoncus ex, sed aliquam neque. Praesent tempor nulla nulla, et convallis urna scelerisque sed. Aliquam ut semper risus, at dictum nunc. Aliquam sit amet ultrices metus, eget volutpat massa. Nulla ipsum diam, ullamcorper et lectus ac, suscipit hendrerit nisl. Fusce vel quam et risus pellentesque egestas. Aenean ut eleifend turpis. Curabitur ultricies lorem sodales, fringilla erat vel, finibus mauris.
+                <p>The authors of Conseal&trade; hereby disclaim all responsibility and liability for this application, its content, and its use.</p>
+
+                <p>When transporting a firearm or carrying into any area or state, it is your duty to contact local law enforcement or legal counsel regarding any questions.
                 </p>
                 <Link to="/states">
                     <Button id="agreeButton">Agree</Button>

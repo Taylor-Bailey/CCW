@@ -9,17 +9,17 @@ import PermitButton from './../images/icons/permit.svg'
 import MapButton from './../images/icons/map.svg'
 import LawButton from './../images/icons/law.svg'
 
-let BottomNav = () => {
+let BottomNav = (props) => {
     return (
         <Grid className="bottomNav" columns='equal' divided inverted padded>
             <Grid.Row className="bottomNavRow" color='gray' textAlign='center'>
-            <Link to='/permit'>
-                <BottomNavButton src={PermitButton}/>
+            <Link className="linkDiv" to='/permit'>
+                <BottomNavButton id={props.id} src={PermitButton}/>
             </Link>
-            <Link to='/map'>
-                <BottomNavButton src={MapButton}/>
+            <Link className="linkDiv" to='/map'>
+                <BottomNavButton id={props.id} src={MapButton}/>
             </Link>
-                <BottomNavButton src={LawButton}/>
+                <BottomNavButton id={props.id} src={LawButton}/>
             </Grid.Row>
         </Grid>
     )
