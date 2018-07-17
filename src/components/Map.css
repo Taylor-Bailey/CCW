@@ -1,3 +1,7 @@
 #activeMapButton {
     background-color: black;
 }
+
+.MapDiv {
+    height: 100%;
+}
