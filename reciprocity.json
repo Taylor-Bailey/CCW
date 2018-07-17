@@ -5,49 +5,56 @@
           "name": "Alabama",
           "flag": "./flags/alabama.svg",
           "reciprocity" : ["KY","WV","NH","TN","FL","TX","GA","ID","WY","UT","AZ","ND","SD","KS","OK","OH","IA","MO","AR","LA","IN","MS","NC","VA","AK","IN","VT","WI","MI","MT","CO"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","CA","OR","WA","NM","HI","SC","IL","MN","NY","ME","NJ","MD","MA","RI","NE","PA","DE","NV"]
       },
       {
           "abbreviation" : "AK",
           "name": "Alaska",
           "flag": "./flags/alaska.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AZ","AR","CO","DE","FL","GA","IN","IA","KS","KY","LA","ME","MI","MS","MN","MO","MT","NE","NV","NH","NM","NC","ND","OH","OK","PA","SC","TN","TX","UT","VT","VA","WV","WI","WY","ID","SC","SD"],
+          "resident" : [],
+          "no_reciprocity": ["CA","CT","IL","HI","MD","MA","NJ","NY","OR","RI","WA","DC2"]
       },
         {
           "abbreviation" : "AZ",
           "name": "Arizona",
           "flag": "./flags/arizona.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AR","DE","FL","GA","ID","IA","IN","ID","KS","KY","LA","MS","MO","MT","NE","NV","NM","NC","ND","OH","OK","SD","TN","TX","UT","VT","VA","WV","WI","WY"],
+          "resident" : ["CO","FL","ME","MI","NH","PA","SC"],
+          "no_reciprocity" : ["CA","CT","DC2","HI","IL","MD","MA","MN","NJ","NY","OR","RI","WA"]
       },
         {
           "abbreviation" : "AR",
           "name": "Arkansas",
           "flag": "./flags/arkansas.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AZ","DE","FL","GA","ID","IN","ID","KS","IA","KY","LA","MS","MO","MT","NE","NV","NM","NC","ND","OH","OK","PA","SD","TN","TX","UT","VT","VA","WV","WI","WY"],
+          "resident" : ["CO","FL","ME","MI","NH","SC"],
+          "no_reciprocity": ["CA","CT","DC2","HI","IL","MD","MA","MN","NJ","NY","OR","RI","WA"]
       },
         {
           "abbreviation" : "CA",
           "name": "California",
           "flag": "./flags/california.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AR","AZ","IA","ID","IN","ID","KS","KY","MI","MS","MO","MT","NE","NC","TN","FL","TX","GA","OH","OK","SD","TN","TX","UT","VT","VA","WI"],
+          "resident" : [],
+          "no_reciprocity": ["CO","CT","DC2","DE","FL","GA","OR","WA","LA","NM","ND","PA","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI","NV","WY"]
       },
         {
           "abbreviation" : "CO",
           "name": "Colorado",
           "flag": "./flags/colorado.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AZ","AK","AR","DE","FL","GA","ID","IN","ID","IA","KS","KY","LA","MS","MO","MT","NE","NM","NC","ND","OH","OK","PA","SD","TN","TX","UT","VT","VA","WV","WI","WY","WV"],
+          "resident" : ["MI","FL","NH"],
+          "no_reciprocity": ["CT","DC2","CA","OR","WA","NM","HI","SC","IL","MN","NY","NV","ME","NJ","MD","MA","RI"]
       },
         {
           "abbreviation" : "CT",
           "name": "Connecticut",
           "flag": "./flags/connecticut.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AZ","AR","ID","IN","IA","KS","KY","MO","MS","MT","NE","NC","OH","OK","SD","TN","TX","UT","VT","VA","WI"],
+          "resident" : ["MI"],
+          "no_reciprocity": ["GA","FL","PA","LA","ND","WY","CO","NV","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
           
       },
         {
@@ -55,6 +62,7 @@
           "name": "Delaware",
           "flag": "./flags/delaware.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -62,6 +70,7 @@
           "name": "District Of Columbia",
           "flag": "./flags/dc.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
           
       },
@@ -70,6 +79,7 @@
           "name": "Florida",
           "flag": "./flags/florida.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -77,6 +87,7 @@
           "name": "Georgia",
           "flag": "./flags/georgia.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -84,6 +95,7 @@
           "name": "Hawaii",
           "flag": "./flags/hawaii.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -91,6 +103,7 @@
           "name": "Idaho",
           "flag": "./flags/idaho.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -98,6 +111,7 @@
           "name": "Illinois",
           "flag": "./flags/illinois.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -105,6 +119,7 @@
           "name": "Indiana",
           "flag": "./flags/indiana.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -112,6 +127,7 @@
           "name": "Iowa",
           "flag": "./flags/iowa.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -119,6 +135,7 @@
           "name": "Kansas",
           "flag": "./flags/kansas.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -126,6 +143,7 @@
           "name": "Kentucky",
           "flag": "./flags/kentucky.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -133,6 +151,7 @@
           "name": "Louisiana",
           "flag": "./flags/louisiana.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -140,6 +159,7 @@
           "name": "Maine",
           "flag": "./flags/maine.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -147,6 +167,7 @@
           "name": "Maryland",
           "flag": "./flags/maryland.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -154,6 +175,7 @@
           "name": "Massachusetts",
           "flag": "/./flags/massachusets.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -161,6 +183,7 @@
           "name": "Michigan",
           "flag": "/./flags/michigan.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -168,6 +191,7 @@
           "name": "Minnesota",
           "flag": "/./flags/minnesota.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -175,6 +199,7 @@
           "name": "Mississippi",
           "flag": "./flags/mississippi.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -182,6 +207,7 @@
           "name": "Missouri",
           "flag": "./flags/missouri.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -189,6 +215,7 @@
           "name": "Montana",
           "flag": "./flags/montana.svg",
           "reciprocity": ["AL","AK","AZ","AR","CO","FL","GA","ID","IN","IA","KS","KY","LA","MI","MS","MO","NC","NE","NV","ND","OH","OK","PA","SD","TN","TX","UT","VT","VA","WI","WY"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -196,6 +223,7 @@
           "name": "Nebraska",
           "flag": "./flags/nebraska.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -203,6 +231,7 @@
           "name": "Nevada",
           "flag": "./flags/nevada.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -210,6 +239,7 @@
           "name": "New Hampshire",
           "flag": "./flags/new_hampshire.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -217,6 +247,7 @@
           "name": "New Jersey",
           "flag": "./flags/new_jersey.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -224,6 +255,7 @@
           "name": "New Mexico",
           "flag": "./flags/new_mexico.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -231,6 +263,7 @@
           "name": "New York",
           "flag": "./flags/new_york.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -238,6 +271,7 @@
           "name": "North Carolina",
           "flag": "./flags/north_carolina.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -245,6 +279,7 @@
           "name": "North Dakota",
           "flag": "./flags/north_dakota.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -252,6 +287,7 @@
           "name": "Ohio",
           "flag": "./flags/ohio.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
           
       },
@@ -260,6 +296,7 @@
           "name": "Oklahoma",
           "flag": "./flags/oklahoma.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -267,6 +304,7 @@
           "name": "Oregon",
           "flag": "./flags/oregon.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -274,6 +312,7 @@
           "name": "Pennsylvania",
           "flag": "./flags/pennsylvania.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -281,6 +320,7 @@
           "name": "Rhode Island",
           "flag": "./flags/rhode_island.jpg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -288,6 +328,7 @@
           "name": "South Carolina",
           "flag": "./flags/south_carolina.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -295,6 +336,7 @@
           "name": "South Dakota",
           "flag": "./flags/south_dakota.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -302,6 +344,7 @@
           "name": "Tennessee",
           "flag": "./flags/tennessee.svg",
           "reciprocity" : ["AL","AK","AZ","AR","CO","DE","ID","IN","IA","KS","KY","LA","ME","MI","MS","MO","MT","NM","NE","NC","NH","NV","ND","OH","OK","PA","SC","SD","UT","VT","VA","WA","WV","WI","WY","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity" : [ "NY", "CA", "IL","MD","CT","DC2","HI","MA","MN","NJ","OR","RI","WA"]
       },
         {
@@ -309,6 +352,7 @@
           "name": "Texas",
           "flag": "./flags/texas.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -316,6 +360,7 @@
           "name": "Utah",
           "flag": "./flags/utah.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -323,6 +368,7 @@
           "name": "Vermont",
           "flag": "./flags/vermont.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -330,6 +376,7 @@
           "name": "Virginia",
           "flag": "./flags/virginia.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -337,6 +384,7 @@
           "name": "Washington",
           "flag": "./flags/washington.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -344,6 +392,7 @@
           "name": "West Virginia",
           "flag": "./flags/west_virginia.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -351,6 +400,7 @@
           "name": "Wisconsin",
           "flag": "./flags/wisconsin.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       },
         {
@@ -358,6 +408,7 @@
           "name": "Wyoming",
           "flag": "./flags/wyoming.svg",
           "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "resident" : [],
           "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
       }
   ]

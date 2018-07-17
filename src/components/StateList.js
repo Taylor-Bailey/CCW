@@ -7,6 +7,7 @@ let StateList  = (props) => {
             let stateData = props.list.map((data, index)=>(
                 <MappingStateData key={index} index={index} abbreviation={data.abbreviation} name={data.name} flag={data.flag} updateState={props.updateState}/>
             ))
+            console.log("stateData", stateData);
                 return (
                 <div className="allStates">
                     <div className="imageDiv">

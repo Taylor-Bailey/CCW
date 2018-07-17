@@ -6,32 +6,32 @@ import './PermitForm.css'
 // let stateOptions = [ { key: 'AL', value: 'Alabama', text: 'Alabama' },{ key: 'TN', value: 'Tennessee', text: 'Tennessee' },{ key: 'MT', value: 'Montana', text: 'Montana' },{ key: 'KY', value: 'Kentucky', text: 'Kentucky'}  ]
 
 
+let storedPermit = localStorage.getItem('your-permit');
+console.log("stored permit: ", storedPermit);
+// let foundPermit = this.checkForPermit(storedPermit);
+// console.log("permitttt: ", this.setState);
+// this.setState({permit: foundPermit} , () => console.log("finding this shit: ", this.state))
 class PermitForm extends Component {
   constructor(props){
-
+    
     super(props)
     this.state= {
-      permit: {
-          firstName: "",
-          lastName: "",
-          issueState: "",
-          licenseNumber: "",
-          expDate: "",
-          resd: true
+      permit: storedPermit
+        // firstName: "",
+        // lastName: "",
+        // issueState: "",
+        // licenseNumber: "",
+        // expDate: "",
+        //   resd: true
       }
-    };
+    }
     
-    let storedPermit = localStorage.getItem('your-permit');
-    let foundPermit = this.checkForPermit(storedPermit);
-    console.log("permitttt: ", this.setState);
-    this.setState({permit: foundPermit} , () => console.log("finding this shit: ", this.state))
-    
-  }
  
   checkForPermit = (localStorageObject) => {
     if(localStorageObject){
       let permit = JSON.parse(localStorageObject);
       console.log("stored permit: ", permit);
+      this.setState({permit})
         return permit
     }else{
       return ({
@@ -65,7 +65,7 @@ class PermitForm extends Component {
   }
 
   render(){
-
+    console.log("this state pemrit: ", this.setState.permit)
     return(
       <Form className="permitForm" onSubmit={this.handleSubmit}>
       <Form.Field>
