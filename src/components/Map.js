@@ -9,7 +9,7 @@ class CarryMap extends Component {
     render() {
         console.log("is data in map.js?", this.props.activeState);
         return (
-            <div>
+            <div className="MapDiv">
                 <Heading title="Map" />
                 <MapInteraction activeState={this.props.activeState} />
                 <BottomNav id="activeMapButton" />

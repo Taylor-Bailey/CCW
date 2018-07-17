@@ -1,5 +1,6 @@
-.mapSelectorGrid {
-    margin: 5rem 0 1rem 0 !important;
+#mapSelectorGrid {
+    margin: 4rem 0 1rem 0 !important;
+    padding-top: 1rem
 }
 
 .mapSelectorRow{
@@ -8,6 +9,7 @@
 
 #buttonBoot {
     padding-top: .1rem;
+    background-color: #FFFFFF;
 }
 
 #enabled{

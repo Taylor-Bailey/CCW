@@ -4,7 +4,7 @@ import MapSelectorButton from './MapSelectorButton.js'
 import './MapSelect.css'
 
 const MapSelect = () => (
-    <Grid className="mapSelectorGrid" columns={5}>
+    <Grid id="mapSelectorGrid" columns={5}>
       <Grid.Row className="mapSelectorRow" >
           <MapSelectorButton id="enabled" label="Reciprocity" />
           <MapSelectorButton label="II Carry" />
