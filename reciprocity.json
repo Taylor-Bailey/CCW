@@ -34,8 +34,8 @@
           "abbreviation" : "CA",
           "name": "California",
           "flag": "./flags/california.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AR","AZ","ID","IN","ID","KS","KY","MI","MS","MO","MT","NE","NC","TN","FL","TX","GA","OH","OK","SD","TN","TX","UT","VT","VA","WI"],
+          "no_reciprocity": ["CO","CT","DC2","DE","FL","GA","OR","WA","LA","NM","ND","PA","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI","NV","WY"]
       },
         {
           "abbreviation" : "CO",
