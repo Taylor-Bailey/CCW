@@ -18,8 +18,9 @@
           "abbreviation" : "AZ",
           "name": "Arizona",
           "flag": "./flags/arizona.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AR","DE","FL","GA","ID","IN","ID","KS","KY","LA","MS","MO","MT","NE","NV","NM","NC","ND","OH","OK","SD","TN","TX","UT","VT","VA","WV","WI","WY"],
+          "resident" : ["CO","FL","ME","MI","NH","PA","SC"],
+          "no_reciprocity" : ["CA","CT","DC2","HI","IL","MD","MA","MN","NJ","NY","OR","RI","WA",]
       },
         {
           "abbreviation" : "AR",
