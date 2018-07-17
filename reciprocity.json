@@ -11,8 +11,8 @@
           "abbreviation" : "AK",
           "name": "Alaska",
           "flag": "./flags/alaska.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AZ","AR","CO","DE","FL","GA","IN","IA","KS","KY","LA","ME","MI","MS","MO","MT","NE","NV","NH","NM","NC","ND","OH","OK","PA","SC","TN","TX","UT","VT","VA","WV","WI","WY","ID","SC"],
+          "no_reciprocity": ["CA","CT","HI","IL","MD","MA","NJ","NY","OR","RI","WA","DC2"]
       },
         {
           "abbreviation" : "AZ",
