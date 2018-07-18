@@ -61,42 +61,42 @@
           "abbreviation" : "DE",
           "name": "Delaware",
           "flag": "./flags/delaware.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "resident" : [],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AL","AK","AZ","AR","IN","ID","IA","KS","KY","MO","MS","NC","OH","OK","SD","TN","TX","UT","VT","VA"],
+          "resident" : ["CO","FL","ME","MI"],
+          "no_reciprocity": ["CT","DC2","CA","GA","OR","WA","HI","SC","NE","IL","WV","WI","NY","NJ","MD","MA","NH","RI","WY","NV"]
       },
         {
           "abbreviation" : "DC",
           "name": "District Of Columbia",
           "flag": "./flags/dc.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "resident" : [],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AK","AL","AR","ID","IN","IA","KS","KY","MS","MO","NE","NC","OH","OK","SD","TN","VT","VA"],
+          "resident" : ["MI"],
+          "no_reciprocity": ["CT","CO","FL","LA","MT","GA","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","NV","MD","MA","NH","RI","ND","PA","TX","WI","WY"]
           
       },
         {
           "abbreviation" : "FL",
           "name": "Florida",
           "flag": "./flags/florida.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "resident" : [],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AK","AL","AR","AZ","DE","GA","IA","ID","IN","KS","KY","LA","MO","MS","MT","NC","ND","NE","NM","NV","OH","OK","SD","UT","TN","TX","VA","VT","WV"],
+          "resident" : ["CO","ME","MI","PA","SC"],
+          "no_reciprocity": ["CA","OR","WA","MN","WI","IL","NY","NJ","CT","RI","MA","MD","DC2","HI"]
       },
         {
           "abbreviation" : "GA",
           "name": "Georgia",
           "flag": "./flags/georgia.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
-          "resident" : [],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "reciprocity" : ["AK","AL","AR","AZ","IA","ID","IN","KS","LA","KY","MO","MS","MT","NC","ND","OH","OK","PA","SD","TN","TX","UT","VA","WV","WY"],
+          "resident" : ["CO","FL","ME","MI","NH","SC"],
+          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","NV","HI","IL","MN","NY","ME","NJ","MD","MA","RI"]
       },
         {
           "abbreviation" : "HI",
           "name": "Hawaii",
           "flag": "./flags/hawaii.svg",
-          "reciprocity" : ["KY","TN","FL","TX","GA"],
+          "reciprocity" : ["AK","AL","AR","AZ","IA","ID","IN","KS","KY","ME","MI","MS","MO","NE","NH","NC","OH","OK","SD","TN","TX","UT","VT","VA","WV","WI"],
           "resident" : [],
-          "no_reciprocity": ["CT","DC2","DE","CA","OR","WA","NM","HI","SC","IL","MN","WV","NY","ME","NJ","MD","MA","NH","RI"]
+          "no_reciprocity": ["CA","CO","CT","DC2","DE","FL","IL","LA","MA","MD","MN","ME","MT","ND","NJ","NM","NV","NY","OR","PA","RI","SC","WA","WY","WV","NH"]
       },
         {
           "abbreviation" : "ID",
