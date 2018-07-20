@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import USAMap from "react-usa-map"
 import './InteractiveMap.css'
 import { GetAllStates } from './data.js'
+import { Dimmer, Loader } from 'semantic-ui-react'
 
 class InteractiveMap extends Component {
   
@@ -9,7 +10,8 @@ class InteractiveMap extends Component {
           super(props)
           
           this.state = {
-              "config": {}
+              "config": {},
+              mapLoaded: false
           }
           this.getMapColor()
       }
@@ -35,15 +37,27 @@ class InteractiveMap extends Component {
                       testObj[arrays[3][i]] = {fill: "#e79135"};
                   }
                   console.log("test Object: ", testObj);
-                  this.setState({config: testObj})
+                  this.setState({
+                      config: testObj,
+                      mapLoaded: true
+                
+                })
               })
       }
-      render() {      
-          return (
-              <div className="usaMap">
-                  <USAMap customize={this.state.config} />
-              </div>
-          );
+      render() {     
+        if(this.state.mapLoaded){  
+            return (
+                <div className="usaMap">
+                <USAMap customize={this.state.config} />
+                </div>
+            )
+        }else{
+            return(
+                <Dimmer active inverted>
+                    <Loader inverted content='Loading' />
+                </Dimmer>
+            )
+        }
       }
   };
             

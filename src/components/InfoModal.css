@@ -18,10 +18,29 @@
     border-bottom: 1px solid rgb(193, 193, 193);
 }
 .blueText{
-    color: rgb(89, 77, 255);
+    color: #594dff;
     font-weight: bold;
     font-size: 1.25rem;
 }
+
+.redText{
+    color: #fa2855;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.yellowText{
+    color: #e9d539;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.orangeText{
+    color: #e79135;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
 
 .infoIcon{
     font-size: 1em !important;
